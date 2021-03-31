@@ -250,8 +250,6 @@ module.exports = function (options) {
               } else {
                 upgraded = true;
               }
-              
-              break;
             }
 
           case 251: // foward
