@@ -247,6 +247,7 @@ module.exports = function (options) {
               if(/\bSTARTTLS\b/i.test(msg)){
                 w('STARTTLS');
                 upgraded = "in-progress";
+                break;
               } else {
                 upgraded = true;
               }
